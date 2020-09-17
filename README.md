@@ -28,3 +28,14 @@ tf 2.1 https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html
 tf 2.2 https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html  
   
 ## Install opencv  
+The latest version of openCV will get the problem on Raspberry Pi.  
+```
+cv2.error: OpenCV(4.4.0) /tmp/pip-install-rrmos8ri/opencv-python/opencv/modules/highgui/src/window.cpp:651: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
+```  
+I got the right version with these two packages.  
+```bash
+pip3 install opencv-python==4.1.1.26
+pip3 install opencv-contrib-python==4.1.0.25
+```
+
+
