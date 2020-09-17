@@ -1,4 +1,7 @@
 # Raspberrypi4  
+## OS version: Raspberry Pi OS (32-bit) with desktop  
+https://www.raspberrypi.org/downloads/raspberry-pi-os/  
+  
 ## Install Tensorflow 2.1  
 tensorflow needs to be installed in 'sudo' mode in Raspberry Pi 4  
 It can not use 'pip3 install tensorflow', and will get the 'version 1.14'(can't upgrade) even latest pip version.  
