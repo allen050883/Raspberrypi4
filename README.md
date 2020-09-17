@@ -1,6 +1,6 @@
 # Raspberrypi4  
 ## Install tensorflow 2.1(2.2)  
-```
+```bash
 # get a fresh start
 $ sudo apt-get update
 $ sudo apt-get upgrade
