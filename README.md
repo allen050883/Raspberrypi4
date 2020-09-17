@@ -23,5 +23,8 @@ $ sudo -H pip3 install tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
 # and complete the installation by rebooting
 $ reboot
 ```
-
+Reference:  
+tf 2.1 https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html  
+tf 2.2 https://qengineering.eu/install-tensorflow-2.2.0-on-raspberry-pi-4.html  
+  
 ## Install opencv  
