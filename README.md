@@ -35,16 +35,16 @@ sudo apt-get upgrade
 sudo pip uninstall tensorflow
 sudo pip3 uninstall tensorflow
 # install the dependencies (if not already onboard)
-sudo apt-get install gfortran
-sudo apt-get install libhdf5-dev libc-ares-dev libeigen3-dev
-sudo apt-get install libatlas-base-dev libopenblas-dev libblas-dev
-sudo apt-get install liblapack-dev cython
-sudo pip3 install pybind11
-sudo pip3 install h5py
+sudo apt-get install gfortran -y
+sudo apt-get install libhdf5-dev libc-ares-dev libeigen3-dev -y
+sudo apt-get install libatlas-base-dev libopenblas-dev libblas-dev -y
+sudo apt-get install liblapack-dev cython -y
+sudo pip3 install pybind11 -y
+sudo pip3 install h5py -y
 # upgrade setuptools 40.8.0 -> 49.6.0
 sudo pip3 install --upgrade setuptools
 # install gdown to download from Google drive
-pip install gdown
+pip3 install gdown -y
 # copy binairy
 sudo cp /home/pi/.local/bin/gdown /usr/local/bin/gdown
 # download the wheel
